@@ -1,25 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import {Route} from 'react-router-dom'
+import Home from './components/Home';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+
+class App extends React.Component{
+
+  state = {
+    spacePhoto: {}
+  }
+
+  componentDidMount(){
+
+    fetch('https://api.nasa.gov/planetary/apod?api_key=mHEPtfFKt74F62Beykcaf8DmYTBbUmfeT44kULex')
+      .then(res => res.json())
+      .then(spaceObj => this.setState(
+        {spacePhoto: spaceObj}
+    ))
+
+  }
+ 
+
+  render(){
+    return (
+      <div>
+        <Route path = '/'>
+          <Home spacePhoto = {this.state.spacePhoto}></Home>
+        </Route>
+      </div>
+    )
+  }
+  
 }
 
 export default App;
