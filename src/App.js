@@ -12,7 +12,7 @@ class App extends React.Component{
 
   componentDidMount(){
 
-    fetch('https://api.nasa.gov/planetary/apod?api_key=mHEPtfFKt74F62Beykcaf8DmYTBbUmfeT44kULex')
+    fetch('https://api.nasa.gov/planetary/apod?api_key=')
       .then(res => res.json())
       .then(spaceObj => this.setState(
         {spacePhoto: spaceObj}
