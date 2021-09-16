@@ -6,12 +6,15 @@ const Home = (props) => {
 
    
     return (
-        <div>
-            <img className = "photo" src = {props.spacePhoto.url} alt = {props.spacePhoto.title}></img>
-            <h1>{props.spacePhoto.title}</h1>
-            <p>{props.spacePhoto.date}</p>
-            <p>{props.spacePhoto.explanation}</p>
-        </div>
+        <segment>
+           <br></br>
+            <div className = 'main-card'>
+                <img className = 'photo' src = {props.spacePhoto.url} alt = {props.spacePhoto.title}></img>
+                <h2 className = 'photo-title'>{props.spacePhoto.title}</h2>
+                <p>{props.spacePhoto.date}</p>
+                <p className = "photo-description">{props.spacePhoto.explanation}</p>
+            </div>
+        </segment>
     )
 }
 

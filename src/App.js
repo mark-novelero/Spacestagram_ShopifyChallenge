@@ -1,8 +1,9 @@
 import React from 'react';
 import {Route} from 'react-router-dom'
+import { Header } from './components/Header';
 import Home from './components/Home';
 
-
+const apiKey = process.env.REACT_APP_NASA_KEY
 
 class App extends React.Component{
 
@@ -12,7 +13,7 @@ class App extends React.Component{
 
   componentDidMount(){
 
-    fetch('https://api.nasa.gov/planetary/apod?api_key=')
+    fetch(`https://api.nasa.gov/planetary/apod?api_key=${apiKey}`)
       .then(res => res.json())
       .then(spaceObj => this.setState(
         {spacePhoto: spaceObj}
@@ -24,9 +25,9 @@ class App extends React.Component{
   render(){
     return (
       <div>
-        <Route path = '/'>
-          <Home spacePhoto = {this.state.spacePhoto}></Home>
-        </Route>
+        <Header></Header>
+        <Home spacePhoto = {this.state.spacePhoto}></Home>
+        
       </div>
     )
   }
