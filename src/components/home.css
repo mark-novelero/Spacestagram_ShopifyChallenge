@@ -41,6 +41,12 @@
   margin-left: 10px;
 }
 
+#user-hate {
+  color: red;
+  font-size: 20px;
+  margin-left: 10px;
+}
+
 .photo-title {
   font-size: 14pt;
   font-family: "Strait", sans-serif;
@@ -69,12 +75,12 @@
   background-color: transparent;
   position: fixed;
   z-index: 2;
+  margin-left: 11%;
 }
 
 .main-title {
   font-family: "Oleo Script", cursive;
   letter-spacing: 1.1px;
   font-size: 28pt;
-  color: transparent;
-  margin-left: 11%;
+  color: whitesmoke;
 }

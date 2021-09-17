@@ -1,5 +1,4 @@
-import React, { useState } from 'react'; 
-import '../App.css'
+
 import videoClip from './videoClip.mp4'
 import './home.css'
 
@@ -26,7 +25,7 @@ const Home = (props) => {
                     {props.liked === false ? <i className="far fa-heart" id = "love" onClick = {() => {props.didLike()}}></i> : <i class="fas fa-heart" id = "user-liked" onClick = {() => {props.didLike()}}></i>}
                     </span>
                     <span>
-                    <i class="far fa-thumbs-down" id = "thumbs-down"></i>
+                    {props.hate === false ? <i class="far fa-thumbs-down" id = "thumbs-down" onClick = {() => {props.didHate()}}></i> : <i class="fas fa-thumbs-down" id = "user-hate"></i>}
                     </span>
                 
                 <p className = "photo-description">{props.spacePhoto.explanation}</p>
