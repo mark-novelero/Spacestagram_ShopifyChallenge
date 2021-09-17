@@ -1,6 +1,4 @@
 import React from 'react';
-import {Route} from 'react-router-dom'
-import { Header } from './components/Header';
 import Home from './components/Home';
 
 const apiKey = process.env.REACT_APP_NASA_KEY
@@ -21,13 +19,10 @@ class App extends React.Component{
 
   }
  
-
   render(){
     return (
       <div>
-        <Header></Header>
-        <Home spacePhoto = {this.state.spacePhoto}></Home>
-        
+        <Home spacePhoto = {this.state.spacePhoto}></Home> 
       </div>
     )
   }
