@@ -1,0 +1,80 @@
+.video-backgound {
+  min-height: 100vh;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+}
+
+.main-card {
+  position: fixed;
+  width: 70%;
+  background-color: rgb(12, 11, 11);
+  padding: 15px;
+  margin-left: 10%;
+  margin-top: 25%;
+  z-index: 1;
+}
+
+.photo {
+  max-width: 99%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 2px 2px 8px 2px rgb(73, 72, 72);
+}
+
+#love {
+  color: white;
+  font-size: 20px;
+  margin-left: 2px;
+}
+
+#user-liked {
+  color: red;
+  font-size: 20px;
+  margin-left: 2px;
+}
+
+#thumbs-down {
+  color: white;
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+.photo-title {
+  font-size: 14pt;
+  font-family: "Strait", sans-serif;
+  letter-spacing: 1.2px;
+  color: rgb(225, 223, 235);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  margin-top: 25px;
+}
+
+.photo-date {
+  font-size: 11px;
+  color: rgb(225, 223, 235);
+}
+
+.photo-description {
+  font-size: 8.5pt;
+  color: rgb(225, 223, 235);
+}
+
+.page-header {
+  width: 100%;
+  height: 0.8in;
+  background-color: transparent;
+  position: fixed;
+  z-index: 2;
+}
+
+.main-title {
+  font-family: "Oleo Script", cursive;
+  letter-spacing: 1.1px;
+  font-size: 28pt;
+  color: transparent;
+  margin-left: 11%;
+}
