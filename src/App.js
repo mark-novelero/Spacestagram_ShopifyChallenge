@@ -45,7 +45,7 @@ class App extends React.Component{
  
   render(){
     return (
-      <div>
+      <div className = "boss-div">
         <Home hate = {this.state.hate} liked = {this.state.liked} 
               didLike = {this.didLike} didHate = {this.didHate} spacePhoto = {this.state.spacePhoto}>
         </Home> 

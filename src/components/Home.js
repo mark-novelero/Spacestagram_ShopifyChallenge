@@ -8,7 +8,7 @@ const Home = (props) => {
 
    
     return (
-        <div>
+        <div className = "top-home-div">
         <header className = "page-header">
             <h1 className = "main-title">Spacestagram</h1>
          </header>
