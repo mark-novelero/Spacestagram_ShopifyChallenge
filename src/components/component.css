@@ -42,6 +42,16 @@
   box-shadow: 2px 2px 8px 2px rgb(73, 72, 72);
 }
 
+.heart-button {
+  background-color: transparent;
+  border: none;
+}
+
+.dislike-button {
+  background-color: transparent;
+  border: none;
+}
+
 #love {
   color: white;
   font-size: 20px;
@@ -87,12 +97,13 @@
 }
 
 .photo-date {
-  font-size: 11px;
+  font-size: 9pt;
   color: rgb(225, 223, 235);
+  margin-top: 10px;
 }
 
 .photo-description {
-  font-size: 8.5pt;
+  font-size: 9.5pt;
   color: rgb(225, 223, 235);
 }
 
@@ -115,11 +126,12 @@
 @media screen and (min-width: 720px) {
   .page-header {
     width: 100%;
-    height: 1in;
+    height: 0.7in;
     background-color: transparent;
     position: fixed;
     z-index: 2;
-    margin-left: 17%;
+    margin-left: 0%;
+    background-color: rgb(12, 11, 11, 0.7);
   }
 
   .video-backgound {
@@ -132,8 +144,9 @@
   .main-title {
     font-family: "Oleo Script", cursive;
     letter-spacing: 1.1px;
-    font-size: 36pt;
+    font-size: 22pt;
     color: whitesmoke;
+    padding-left: 5%;
   }
 
   .main-card {
@@ -141,8 +154,8 @@
     width: 60%;
     background-color: rgb(12, 11, 11, 0.7);
     padding: 25px;
-    margin-left: 16%;
-    margin-top: 19%;
+    margin-left: 16.5%;
+    margin-top: 15%;
     z-index: 1;
   }
 
@@ -152,6 +165,16 @@
     margin-left: auto;
     margin-right: auto;
     box-shadow: 2px 2px 6px 2px rgb(73, 72, 72);
+  }
+
+  .heart-button {
+    background-color: transparent;
+    border: none;
+  }
+
+  .dislike-button {
+    background-color: transparent;
+    border: none;
   }
 
   #love {
@@ -204,7 +227,7 @@
   }
 
   .photo-description {
-    font-size: 10pt;
+    font-size: 12.5pt;
     color: rgb(225, 223, 235);
   }
 }
@@ -221,31 +244,41 @@
   .main-title {
     font-family: "Oleo Script", cursive;
     letter-spacing: 1.3px;
-    font-size: 22pt;
+    font-size: 19pt;
     color: rgb(245, 239, 239);
     padding-left: 5%;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
     margin-top: 0px;
     background-color: rgb(14, 12, 12, 0.8);
   }
 
   .main-card {
     position: fixed;
-    width: 40%;
+    width: 42%;
     background-color: rgb(12, 11, 11, 0.7);
     padding: 25px;
-    margin-left: 26.3%;
-    margin-top: 8.5%;
+    margin-left: 26.6%;
+    margin-top: 7.5%;
     z-index: 1;
   }
 
   .photo {
-    width: 63%;
+    width: 50%;
     display: block;
     margin-left: auto;
     margin-right: auto;
     box-shadow: 2px 2px 6px 2px rgb(73, 72, 72);
+  }
+
+  .heart-button {
+    background-color: transparent;
+    border: none;
+  }
+
+  .dislike-button {
+    background-color: transparent;
+    border: none;
   }
 
   #love {
@@ -287,10 +320,116 @@
   .photo-date {
     font-size: 9pt;
     color: rgb(225, 223, 235);
+    margin-top: 5px;
   }
 
   .photo-description {
-    font-size: 9.25pt;
+    font-size: 10pt;
+    color: rgb(225, 223, 235);
+  }
+}
+
+@media screen and (min-width: 1000px) and (min-height: 1300px) {
+  .page-header {
+    width: 100%;
+    height: 0in;
+    position: fixed;
+    z-index: 1;
+    margin-left: 0%;
+  }
+
+  .main-title {
+    font-family: "Oleo Script", cursive;
+    letter-spacing: 1.3px;
+    font-size: 32pt;
+    color: rgb(245, 239, 239);
+    padding-left: 5%;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-top: 0px;
+    background-color: rgb(14, 12, 12, 0.8);
+  }
+
+  .main-card {
+    position: fixed;
+    width: 60%;
+    background-color: rgb(12, 11, 11, 0.7);
+    padding: 22px;
+    margin-left: 19%;
+    margin-top: 16.9%;
+    z-index: 1;
+  }
+
+  .photo {
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 2px 2px 6px 2px rgb(73, 72, 72);
+    margin-bottom: 50px;
+  }
+
+  .heart-button {
+    background-color: transparent;
+    border: none;
+  }
+
+  .dislike-button {
+    background-color: transparent;
+    border: none;
+  }
+
+  #love {
+    color: white;
+    font-size: 38px;
+    margin-left: 2px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  #user-liked {
+    color: red;
+    font-size: 38px;
+    margin-left: 2px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  #thumbs-down {
+    color: white;
+    font-size: 38px;
+    margin-left: 15px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  #user-hate {
+    color: red;
+    font-size: 38px;
+    margin-left: 15px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .photo-title {
+    font-size: 28pt;
+    font-family: "Strait", sans-serif;
+    letter-spacing: 1.2px;
+    color: rgb(225, 223, 235);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+  }
+
+  .photo-date {
+    font-size: 15pt;
+    color: rgb(225, 223, 235);
+    margin-top: 8px;
+  }
+
+  .photo-description {
+    font-size: 16pt;
     color: rgb(225, 223, 235);
   }
 }
@@ -327,12 +466,22 @@
   }
 
   .photo {
-    width: 63%;
+    width: 55%;
     display: block;
     margin-left: auto;
     margin-right: auto;
     box-shadow: 2px 2px 6px 2px rgb(73, 72, 72);
     margin-bottom: 25px;
+  }
+
+  .heart-button {
+    background-color: transparent;
+    border: none;
+  }
+
+  .dislike-button {
+    background-color: transparent;
+    border: none;
   }
 
   #love {
@@ -373,10 +522,11 @@
   .photo-date {
     font-size: 9pt;
     color: rgb(225, 223, 235);
+    margin-top: 8px;
   }
 
   .photo-description {
-    font-size: 9.75pt;
+    font-size: 10.25pt;
     color: rgb(225, 223, 235);
   }
 }
@@ -400,11 +550,11 @@
   .main-title {
     font-family: "Oleo Script", cursive;
     letter-spacing: 1.3px;
-    font-size: 21pt;
+    font-size: 18pt;
     color: rgb(245, 239, 239);
     padding-left: 5%;
-    padding-top: 8px;
-    padding-bottom: 8px;
+    padding-top: 6px;
+    padding-bottom: 6px;
     margin-top: 0px;
     background-color: rgb(14, 12, 12, 0.8);
   }
@@ -415,12 +565,12 @@
     background-color: rgb(12, 11, 11, 0.7);
     padding: 22px;
     margin-left: 29.2%;
-    margin-top: 7%;
+    margin-top: 6%;
     z-index: 1;
   }
 
   .photo {
-    width: 50%;
+    width: 40%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -428,9 +578,19 @@
     margin-bottom: 25px;
   }
 
+  .heart-button {
+    background-color: transparent;
+    border: none;
+  }
+
+  .dislike-button {
+    background-color: transparent;
+    border: none;
+  }
+
   #love {
     color: white;
-    font-size: 22px;
+    font-size: 20px;
     margin-left: 2px;
     margin-bottom: 12px;
     margin-top: 12px;
@@ -438,19 +598,19 @@
 
   #user-liked {
     color: red;
-    font-size: 22px;
+    font-size: 20px;
     margin-left: 2px;
   }
 
   #thumbs-down {
     color: white;
-    font-size: 22px;
+    font-size: 20px;
     margin-left: 10px;
   }
 
   #user-hate {
     color: red;
-    font-size: 22px;
+    font-size: 20px;
     margin-left: 10px;
   }
 
@@ -472,7 +632,7 @@
   }
 
   .photo-description {
-    font-size: 10.75pt;
+    font-size: 10.5pt;
     color: rgb(225, 223, 235);
   }
 }
@@ -517,7 +677,7 @@
   }
 
   .photo {
-    width: 51%;
+    width: 48%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -525,9 +685,19 @@
     margin-bottom: 37px;
   }
 
+  .heart-button {
+    background-color: transparent;
+    border: none;
+  }
+
+  .dislike-button {
+    background-color: transparent;
+    border: none;
+  }
+
   #love {
     color: white;
-    font-size: 22px;
+    font-size: 24px;
     margin-left: 2px;
     margin-bottom: 18px;
     margin-top: 15px;
@@ -575,7 +745,120 @@
   }
 
   .photo-description {
-    font-size: 11pt;
+    font-size: 12pt;
+    color: rgb(225, 223, 235);
+  }
+}
+
+@media screen and (min-width: 1300px) and (min-height: 1000px) {
+  .page-header {
+    width: 100%;
+    height: 0in;
+    position: fixed;
+    z-index: 1;
+    margin-left: 0%;
+  }
+
+  .video-backgound {
+    min-height: 100vh;
+    min-width: 100%;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+  }
+
+  .main-title {
+    font-family: "Oleo Script", cursive;
+    letter-spacing: 1.3px;
+    font-size: 27.9pt;
+    color: rgb(245, 239, 239);
+    padding-left: 5%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 0px;
+    background-color: rgb(14, 12, 12, 0.8);
+  }
+
+  .main-card {
+    position: fixed;
+    width: 40%;
+    background-color: rgb(12, 11, 11, 0.7);
+    padding: 22px;
+    margin-left: 28.9%;
+    margin-top: 7.9%;
+    z-index: 1;
+  }
+
+  .photo {
+    width: 68%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 2px 2px 6px 2px rgb(73, 72, 72);
+    margin-bottom: 37px;
+  }
+
+  .heart-button {
+    background-color: transparent;
+    border: none;
+  }
+
+  .dislike-button {
+    background-color: transparent;
+    border: none;
+  }
+
+  #love {
+    color: white;
+    font-size: 34px;
+    margin-left: 2px;
+    margin-bottom: 22px;
+    margin-top: 22px;
+  }
+
+  #user-liked {
+    color: red;
+    font-size: 34px;
+    margin-left: 2px;
+    margin-bottom: 22px;
+    margin-top: 22px;
+  }
+
+  #thumbs-down {
+    color: white;
+    font-size: 34px;
+    margin-left: 10px;
+    margin-bottom: 22px;
+    margin-top: 22px;
+  }
+
+  #user-hate {
+    color: red;
+    font-size: 34px;
+    margin-left: 10px;
+    margin-bottom: 22px;
+    margin-top: 22px;
+  }
+
+  .photo-title {
+    font-size: 25pt;
+    font-family: "Strait", sans-serif;
+    letter-spacing: 1.2px;
+    color: rgb(225, 223, 235);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+  }
+
+  .photo-date {
+    font-size: 14pt;
+    color: rgb(225, 223, 235);
+    margin-top: 12 px;
+  }
+
+  .photo-description {
+    font-size: 14pt;
     color: rgb(225, 223, 235);
   }
 }
@@ -600,11 +883,11 @@
   .main-title {
     font-family: "Oleo Script", cursive;
     letter-spacing: 1.3px;
-    font-size: 27pt;
+    font-size: 28pt;
     color: rgb(245, 239, 239);
     padding-left: 5%;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     margin-top: 0px;
     background-color: rgb(14, 12, 12, 0.38);
     width: 100%;
@@ -612,16 +895,16 @@
 
   .main-card {
     position: fixed;
-    width: 34%;
+    width: 37%;
     background-color: rgb(12, 11, 11, 0.7);
     padding: 22px;
     margin-left: 32.8%;
-    margin-top: 7.6%;
+    margin-top: 8%;
     z-index: 1;
   }
 
   .photo {
-    width: 54%;
+    width: 58%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -629,9 +912,19 @@
     margin-bottom: 37px;
   }
 
+  .heart-button {
+    background-color: transparent;
+    border: none;
+  }
+
+  .dislike-button {
+    background-color: transparent;
+    border: none;
+  }
+
   #love {
     color: white;
-    font-size: 22px;
+    font-size: 26px;
     margin-left: 2px;
     margin-bottom: 18px;
     margin-top: 15px;
@@ -639,7 +932,7 @@
 
   #user-liked {
     color: red;
-    font-size: 24px;
+    font-size: 26px;
     margin-left: 2px;
     margin-bottom: 18px;
     margin-top: 15px;
@@ -647,7 +940,7 @@
 
   #thumbs-down {
     color: white;
-    font-size: 24px;
+    font-size: 25px;
     margin-left: 10px;
     margin-bottom: 18px;
     margin-top: 15px;
@@ -655,14 +948,14 @@
 
   #user-hate {
     color: red;
-    font-size: 24px;
+    font-size: 25px;
     margin-left: 10px;
     margin-bottom: 18px;
     margin-top: 15px;
   }
 
   .photo-title {
-    font-size: 16.5pt;
+    font-size: 18pt;
     font-family: "Strait", sans-serif;
     letter-spacing: 1.2px;
     color: rgb(225, 223, 235);
@@ -673,13 +966,13 @@
   }
 
   .photo-date {
-    font-size: 10.6pt;
+    font-size: 12.6pt;
     color: rgb(225, 223, 235);
     margin-top: 12px;
   }
 
   .photo-description {
-    font-size: 12.3pt;
+    font-size: 13.3pt;
     color: rgb(225, 223, 235);
   }
 }
@@ -735,7 +1028,7 @@
 
   #love {
     color: white;
-    font-size: 22px;
+    font-size: 24px;
     margin-left: 2px;
     margin-bottom: 18px;
     margin-top: 15px;
@@ -808,11 +1101,11 @@
   .main-title {
     font-family: "Oleo Script", cursive;
     letter-spacing: 1.3px;
-    font-size: 29pt;
+    font-size: 26pt;
     color: rgb(245, 239, 239);
     padding-left: 5%;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     margin-top: 0px;
     background-color: rgb(14, 12, 12, 0.38);
     width: 100%;
@@ -820,21 +1113,31 @@
 
   .main-card {
     position: fixed;
-    width: 34%;
+    width: 36%;
     background-color: rgb(12, 11, 11, 0.7);
     padding: 22px;
-    margin-left: 33.3%;
-    margin-top: 7.2%;
+    margin-left: 32.3%;
+    margin-top: 6.5%;
     z-index: 1;
   }
 
   .photo {
-    width: 64%;
+    width: 50%;
     display: block;
     margin-left: auto;
     margin-right: auto;
     box-shadow: 2px 2px 6px 2px rgb(73, 72, 72);
     margin-bottom: 37px;
+  }
+
+  .heart-button {
+    background-color: transparent;
+    border: none;
+  }
+
+  .dislike-button {
+    background-color: transparent;
+    border: none;
   }
 
   #love {
@@ -888,6 +1191,234 @@
 
   .photo-description {
     font-size: 13pt;
+    color: rgb(225, 223, 235);
+  }
+}
+
+@media screen and (min-width: 1900px) {
+  .page-header {
+    width: 100%;
+    height: 0in;
+    position: fixed;
+    z-index: 1;
+    margin-left: 0%;
+  }
+
+  .video-backgound {
+    min-height: 100vh;
+    min-width: 100%;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+  }
+
+  .main-title {
+    font-family: "Oleo Script", cursive;
+    letter-spacing: 1.3px;
+    font-size: 32pt;
+    color: rgb(245, 239, 239);
+    padding-left: 5%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 0px;
+    background-color: rgb(14, 12, 12, 0.38);
+    width: 100%;
+  }
+
+  .main-card {
+    position: fixed;
+    width: 37%;
+    background-color: rgb(12, 11, 11, 0.7);
+    padding: 22px;
+    margin-left: 33%;
+    margin-top: 7.2%;
+    z-index: 1;
+  }
+
+  .photo {
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 2px 2px 6px 2px rgb(73, 72, 72);
+    margin-bottom: 37px;
+  }
+
+  .heart-button {
+    background-color: transparent;
+    border: none;
+  }
+
+  .dislike-button {
+    background-color: transparent;
+    border: none;
+  }
+
+  #love {
+    color: white;
+    font-size: 30px;
+    margin-left: 2px;
+    margin-bottom: 18px;
+    margin-top: 15px;
+  }
+
+  #user-liked {
+    color: red;
+    font-size: 30px;
+    margin-left: 2px;
+    margin-bottom: 18px;
+    margin-top: 15px;
+  }
+
+  #thumbs-down {
+    color: white;
+    font-size: 30px;
+    margin-left: 14px;
+    margin-bottom: 18px;
+    margin-top: 15px;
+  }
+
+  #user-hate {
+    color: red;
+    font-size: 30px;
+    margin-left: 14px;
+    margin-bottom: 18px;
+    margin-top: 15px;
+  }
+
+  .photo-title {
+    font-size: 22.5pt;
+    font-family: "Strait", sans-serif;
+    letter-spacing: 1.2px;
+    color: rgb(225, 223, 235);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+  }
+
+  .photo-date {
+    font-size: 14.3pt;
+    color: rgb(225, 223, 235);
+    margin-top: 12px;
+  }
+
+  .photo-description {
+    font-size: 15pt;
+    color: rgb(225, 223, 235);
+  }
+}
+
+@media screen and (min-width: 1900px) and (min-height: 1199px) {
+  .page-header {
+    width: 100%;
+    height: 0in;
+    position: fixed;
+    z-index: 1;
+    margin-left: 0%;
+  }
+
+  .video-backgound {
+    min-height: 100vh;
+    min-width: 100%;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+  }
+
+  .main-title {
+    font-family: "Oleo Script", cursive;
+    letter-spacing: 1.3px;
+    font-size: 29pt;
+    color: rgb(245, 239, 239);
+    padding-left: 5%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 0px;
+    background-color: rgb(14, 12, 12, 0.38);
+    width: 100%;
+  }
+
+  .main-card {
+    position: fixed;
+    width: 40%;
+    background-color: rgb(12, 11, 11, 0.7);
+    padding: 22px;
+    margin-left: 31.4%;
+    margin-top: 7.2%;
+    z-index: 1;
+  }
+
+  .photo {
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 2px 2px 6px 2px rgb(73, 72, 72);
+    margin-bottom: 37px;
+  }
+
+  #love {
+    color: white;
+    font-size: 30px;
+    margin-left: 2px;
+    margin-bottom: 20px;
+    margin-top: 18px;
+  }
+
+  .heart-button {
+    background-color: transparent;
+    border: none;
+  }
+
+  .dislike-button {
+    background-color: transparent;
+    border: none;
+  }
+
+  #user-liked {
+    color: red;
+    font-size: 30px;
+    margin-left: 2px;
+    margin-bottom: 20px;
+    margin-top: 18px;
+  }
+
+  #thumbs-down {
+    color: white;
+    font-size: 30px;
+    margin-left: 14px;
+    margin-bottom: 20px;
+    margin-top: 18px;
+  }
+
+  #user-hate {
+    color: red;
+    font-size: 30px;
+    margin-left: 14px;
+    margin-bottom: 20px;
+    margin-top: 18px;
+  }
+
+  .photo-title {
+    font-size: 24pt;
+    font-family: "Strait", sans-serif;
+    letter-spacing: 1.2px;
+    color: rgb(225, 223, 235);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+  }
+
+  .photo-date {
+    font-size: 16.9pt;
+    color: rgb(225, 223, 235);
+    margin-top: 18px;
+  }
+
+  .photo-description {
+    font-size: 17pt;
     color: rgb(225, 223, 235);
   }
 }
