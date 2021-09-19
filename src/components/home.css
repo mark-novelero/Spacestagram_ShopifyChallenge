@@ -434,3 +434,204 @@
     color: rgb(225, 223, 235);
   }
 }
+
+@media screen and (min-width: 1300px) {
+  .page-header {
+    width: 100%;
+    height: 0in;
+    position: fixed;
+    z-index: 1;
+    margin-left: 0%;
+  }
+
+  .video-backgound {
+    width: 100%;
+  }
+
+  .main-title {
+    font-family: "Oleo Script", cursive;
+    letter-spacing: 1.3px;
+    font-size: 23.9pt;
+    color: rgb(245, 239, 239);
+    padding-left: 5%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 0px;
+    background-color: rgb(14, 12, 12, 0.8);
+  }
+
+  .main-card {
+    position: fixed;
+    width: 36%;
+    background-color: rgb(12, 11, 11, 0.7);
+    padding: 22px;
+    margin-left: 30.2%;
+    margin-top: 7.2%;
+    z-index: 1;
+  }
+
+  .photo {
+    width: 370px;
+    height: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 2px 2px 6px 2px rgb(73, 72, 72);
+    margin-bottom: 37px;
+  }
+
+  #love {
+    color: white;
+    font-size: 22px;
+    margin-left: 2px;
+    margin-bottom: 18px;
+    margin-top: 15px;
+  }
+
+  #user-liked {
+    color: red;
+    font-size: 24px;
+    margin-left: 2px;
+    margin-bottom: 18px;
+    margin-top: 15px;
+  }
+
+  #thumbs-down {
+    color: white;
+    font-size: 24px;
+    margin-left: 10px;
+    margin-bottom: 18px;
+    margin-top: 15px;
+  }
+
+  #user-hate {
+    color: red;
+    font-size: 24px;
+    margin-left: 10px;
+    margin-bottom: 18px;
+    margin-top: 15px;
+  }
+
+  .photo-title {
+    font-size: 16.5pt;
+    font-family: "Strait", sans-serif;
+    letter-spacing: 1.2px;
+    color: rgb(225, 223, 235);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+  }
+
+  .photo-date {
+    font-size: 10.3pt;
+    color: rgb(225, 223, 235);
+    margin-top: 12 px;
+  }
+
+  .photo-description {
+    font-size: 11.5pt;
+    color: rgb(225, 223, 235);
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .page-header {
+    width: 100%;
+    height: 0in;
+    position: fixed;
+    z-index: 1;
+    margin-left: 0%;
+  }
+
+  .video-backgound {
+    width: 100%;
+  }
+
+  .main-title {
+    font-family: "Oleo Script", cursive;
+    letter-spacing: 1.3px;
+    font-size: 27pt;
+    color: rgb(245, 239, 239);
+    padding-left: 5%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 0px;
+    background-color: rgb(14, 12, 12, 0.38);
+    width: 100%;
+  }
+
+  .main-card {
+    position: fixed;
+    width: 34%;
+    background-color: rgb(12, 11, 11, 0.7);
+    padding: 22px;
+    margin-left: 32.8%;
+    margin-top: 7.6%;
+    z-index: 1;
+  }
+
+  .photo {
+    width: 390px;
+    height: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 2px 2px 6px 2px rgb(73, 72, 72);
+    margin-bottom: 37px;
+  }
+
+  #love {
+    color: white;
+    font-size: 22px;
+    margin-left: 2px;
+    margin-bottom: 18px;
+    margin-top: 15px;
+  }
+
+  #user-liked {
+    color: red;
+    font-size: 24px;
+    margin-left: 2px;
+    margin-bottom: 18px;
+    margin-top: 15px;
+  }
+
+  #thumbs-down {
+    color: white;
+    font-size: 24px;
+    margin-left: 10px;
+    margin-bottom: 18px;
+    margin-top: 15px;
+  }
+
+  #user-hate {
+    color: red;
+    font-size: 24px;
+    margin-left: 10px;
+    margin-bottom: 18px;
+    margin-top: 15px;
+  }
+
+  .photo-title {
+    font-size: 16.5pt;
+    font-family: "Strait", sans-serif;
+    letter-spacing: 1.2px;
+    color: rgb(225, 223, 235);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+  }
+
+  .photo-date {
+    font-size: 10.6pt;
+    color: rgb(225, 223, 235);
+    margin-top: 12px;
+  }
+
+  .photo-description {
+    font-size: 12.3pt;
+    color: rgb(225, 223, 235);
+  }
+}
