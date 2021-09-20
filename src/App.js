@@ -9,7 +9,8 @@ class App extends React.Component{
   state = {
     spacePhoto: {}, 
     liked: false, 
-    hate: false
+    hate: false, 
+    zoomed: false
   }
 
   componentDidMount(){
@@ -63,6 +64,11 @@ class App extends React.Component{
     }
   }
 
+  setZoom = () => {
+    this.setState({
+      zoomed: !this.state.zoomed
+    })
+  }
 
  
   render(){
@@ -70,12 +76,13 @@ class App extends React.Component{
       <div className = "boss-div">
         <Header/>
         <Home hate = {this.state.hate} liked = {this.state.liked} 
-              didLike = {this.didLike} didHate = {this.didHate} spacePhoto = {this.state.spacePhoto}>
+              didLike = {this.didLike} didHate = {this.didHate} spacePhoto = {this.state.spacePhoto}
+              zoomed = {this.state.zoomed} setZoom = {this.setZoom}>        
         </Home> 
       </div>
     )
   }
-  
+   
 }
 
 export default App;

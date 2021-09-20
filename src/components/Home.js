@@ -1,5 +1,6 @@
 import videoClip from './videoClip.mp4'
 import './component.css'
+import Image from "react-image-enlarger";
 
 
 
@@ -12,8 +13,16 @@ const Home = (props) => {
             </video>
             <section className = 'main-card'>
                 {props.spacePhoto.media_type === 'video' ? <iframe className = 'photo' src = {props.spacePhoto.url} title = 'space video' allow = 'encrypted-media' allowFullScreen/> :
-                <img className = 'photo' src = {props.spacePhoto.url} alt = {props.spacePhoto.title}></img>}
+                <Image 
+                    className = 'photo' 
+                    src = {props.spacePhoto.url} 
+                    alt = {props.spacePhoto.title}
+                    zoomed = {props.zoomed}
+                    onClick = {() => props.setZoom()}
+                    onRequestClose={() => props.setZoom()}
+                    ></Image>}
                 <h2 className = 'photo-title'>{props.spacePhoto.title}</h2>
+                <p className = "copyright">Copyright: {props.spacePhoto.copyright}</p>
                 <p className = "photo-date">{props.spacePhoto.date}</p>
                 <div classNAme = "icons">
                     <button className = "heart-button">

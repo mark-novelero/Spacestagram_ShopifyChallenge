@@ -26,10 +26,10 @@
 
 .main-card {
   position: fixed;
-  width: 70%;
+  width: 80%;
   background-color: rgb(12, 11, 11, 0.7);
   padding: 15px;
-  margin-left: 10%;
+  margin-left: 5.2%;
   margin-top: 25%;
   z-index: 1;
 }
@@ -96,6 +96,13 @@
   margin-right: auto;
   align-items: center;
   margin-top: 25px;
+}
+
+.copyright {
+  font-size: 8pt;
+  color: rgb(178, 178, 182);
+  margin-top: 8px;
+  margin-left: 1px;
 }
 
 .photo-date {
@@ -223,6 +230,13 @@
     margin-top: 30px;
   }
 
+  .copyright {
+    font-size: 8pt;
+    color: rgb(178, 178, 182);
+    margin-top: 5px;
+    margin-left: 1px;
+  }
+
   .photo-date {
     font-size: 10pt;
     color: rgb(225, 223, 235);
@@ -234,7 +248,7 @@
   }
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1000px) and (min-height: 701px) {
   .page-header {
     width: 100%;
     height: 0in;
@@ -266,7 +280,7 @@
   }
 
   .photo {
-    max-width: 60%;
+    width: 70%;
     max-height: 40%;
     display: block;
     margin-left: auto;
@@ -320,6 +334,13 @@
     margin-top: 15pt;
   }
 
+  .copyright {
+    font-size: 8pt;
+    color: rgb(178, 178, 182);
+    margin-top: 5px;
+    margin-left: 1px;
+  }
+
   .photo-date {
     font-size: 9pt;
     color: rgb(225, 223, 235);
@@ -364,8 +385,7 @@
   }
 
   .photo {
-    max-width: 60%;
-    max-height: 50%;
+    width: 50%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -407,7 +427,7 @@
   }
 
   .photo-title {
-    font-size: 13pt;
+    font-size: 12pt;
     font-family: "Strait", sans-serif;
     letter-spacing: 1.2px;
     color: rgb(225, 223, 235);
@@ -418,14 +438,21 @@
     margin-top: 12pt;
   }
 
+  .copyright {
+    font-size: 7pt;
+    color: rgb(178, 178, 182);
+    margin-top: 5px;
+    margin-left: 1px;
+  }
+
   .photo-date {
-    font-size: 9pt;
+    font-size: 8pt;
     color: rgb(225, 223, 235);
     margin-top: 10px;
   }
 
   .photo-description {
-    font-size: 10pt;
+    font-size: 9pt;
     color: rgb(225, 223, 235);
   }
 }
@@ -523,6 +550,12 @@
     margin-right: auto;
     align-items: center;
   }
+  .copyright {
+    font-size: 8.5pt;
+    color: rgb(178, 178, 182);
+    margin-top: 8px;
+    margin-left: 1px;
+  }
 
   .photo-date {
     font-size: 15pt;
@@ -619,6 +652,13 @@
     margin-left: auto;
     margin-right: auto;
     align-items: center;
+  }
+
+  .copyright {
+    font-size: 8pt;
+    color: rgb(178, 178, 182);
+    margin-top: 8px;
+    margin-left: 1px;
   }
 
   .photo-date {
@@ -728,6 +768,13 @@
     align-items: center;
   }
 
+  .copyright {
+    font-size: 8pt;
+    color: rgb(178, 178, 182);
+    margin-top: 8px;
+    margin-left: 1px;
+  }
+
   .photo-date {
     font-size: 10pt;
     color: rgb(225, 223, 235);
@@ -735,7 +782,7 @@
   }
 
   .photo-description {
-    font-size: 11.5pt;
+    font-size: 11pt;
     color: rgb(225, 223, 235);
   }
 }
@@ -840,6 +887,13 @@
     margin-left: auto;
     margin-right: auto;
     align-items: center;
+  }
+
+  .copyright {
+    font-size: 8.5pt;
+    color: rgb(178, 178, 182);
+    margin-top: 8px;
+    margin-left: 1px;
   }
 
   .photo-date {
@@ -955,6 +1009,12 @@
     margin-right: auto;
     align-items: center;
   }
+  .copyright {
+    font-size: 8pt;
+    color: rgb(178, 178, 182);
+    margin-top: 8px;
+    margin-left: 1px;
+  }
 
   .photo-date {
     font-size: 14pt;
@@ -1004,12 +1064,12 @@
     background-color: rgb(12, 11, 11, 0.7);
     padding: 22px;
     margin-left: 30.4%;
-    margin-top: 9%;
+    margin-top: 8%;
     z-index: 1;
   }
 
   .photo {
-    max-width: 60%;
+    max-width: 50%;
     max-height: 40%;
     display: block;
     margin-left: auto;
@@ -1061,14 +1121,22 @@
   }
 
   .photo-title {
-    font-size: 16.5pt;
+    font-size: 17.5pt;
     font-family: "Strait", sans-serif;
     letter-spacing: 1.2px;
     color: rgb(225, 223, 235);
     display: block;
+    margin-top: 5px;
     margin-left: auto;
     margin-right: auto;
     align-items: center;
+  }
+
+  .copyright {
+    font-size: 8.5pt;
+    color: rgb(178, 178, 182);
+    margin-top: 8px;
+    margin-left: 1px;
   }
 
   .photo-date {
@@ -1078,7 +1146,7 @@
   }
 
   .photo-description {
-    font-size: 13pt;
+    font-size: 12pt;
     color: rgb(225, 223, 235);
   }
 }
@@ -1176,6 +1244,13 @@
     align-items: center;
   }
 
+  .copyright {
+    font-size: 8.5pt;
+    color: rgb(178, 178, 182);
+    margin-top: 8px;
+    margin-left: 1px;
+  }
+
   .photo-date {
     font-size: 10.6pt;
     color: rgb(225, 223, 235);
@@ -1222,14 +1297,14 @@
     position: fixed;
     width: 36%;
     background-color: rgb(12, 11, 11, 0.7);
-    padding: 28px;
+    padding: 33px;
     margin-left: 32.1%;
     margin-top: 8.9%;
     z-index: 1;
   }
 
   .photo {
-    max-width: 70%;
+    max-width: 50%;
     max-height: 40%;
     display: block;
     margin-left: auto;
@@ -1289,6 +1364,12 @@
     margin-left: auto;
     margin-right: auto;
     align-items: center;
+  }
+  .copyright {
+    font-size: 8.5pt;
+    color: rgb(178, 178, 182);
+    margin-top: 8px;
+    margin-left: 1px;
   }
 
   .photo-date {
@@ -1405,6 +1486,13 @@
     align-items: center;
   }
 
+  .copyright {
+    font-size: 8.5pt;
+    color: rgb(178, 178, 182);
+    margin-top: 8px;
+    margin-left: 1px;
+  }
+
   .photo-date {
     font-size: 14.3pt;
     color: rgb(225, 223, 235);
@@ -1517,6 +1605,13 @@
     margin-left: auto;
     margin-right: auto;
     align-items: center;
+  }
+
+  .copyright {
+    font-size: 8.5pt;
+    color: rgb(178, 178, 182);
+    margin-top: 8px;
+    margin-left: 1px;
   }
 
   .photo-date {
