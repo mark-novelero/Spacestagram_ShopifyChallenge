@@ -19,7 +19,6 @@ class App extends React.Component{
       .then(spaceObj => this.setState(
         {spacePhoto: spaceObj}
     ))
-
   }
 
   didLike = () => {

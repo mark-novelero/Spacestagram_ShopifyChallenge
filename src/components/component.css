@@ -6,7 +6,7 @@
   background-color: rgb(14, 12, 12, 0.8);
 }
 
-.main-title {
+.header-title {
   font-family: "Oleo Script", cursive;
   letter-spacing: 1.3px;
   font-size: 22pt;
@@ -45,11 +45,13 @@
 .heart-button {
   background-color: transparent;
   border: none;
+  cursor: pointer;
 }
 
 .dislike-button {
   background-color: transparent;
   border: none;
+  cursor: pointer;
 }
 
 #love {
@@ -141,7 +143,7 @@
     bottom: 0;
   }
 
-  .main-title {
+  .header-title {
     font-family: "Oleo Script", cursive;
     letter-spacing: 1.1px;
     font-size: 22pt;
@@ -241,7 +243,7 @@
     margin-left: 0%;
   }
 
-  .main-title {
+  .header-title {
     font-family: "Oleo Script", cursive;
     letter-spacing: 1.3px;
     font-size: 19pt;
@@ -259,12 +261,13 @@
     background-color: rgb(12, 11, 11, 0.7);
     padding: 25px;
     margin-left: 26.6%;
-    margin-top: 7.5%;
+    margin-top: 11.25%;
     z-index: 1;
   }
 
   .photo {
-    width: 50%;
+    max-width: 60%;
+    max-height: 40%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -306,7 +309,105 @@
   }
 
   .photo-title {
+    font-size: 16pt;
+    font-family: "Strait", sans-serif;
+    letter-spacing: 1.2px;
+    color: rgb(225, 223, 235);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    margin-top: 15pt;
+  }
+
+  .photo-date {
+    font-size: 9pt;
+    color: rgb(225, 223, 235);
+    margin-top: 5px;
+  }
+
+  .photo-description {
+    font-size: 12pt;
+    color: rgb(225, 223, 235);
+  }
+}
+
+@media screen and (min-width: 1000px) and (max-height: 699px) {
+  .page-header {
+    width: 100%;
+    height: 0in;
+    position: fixed;
+    z-index: 1;
+    margin-left: 0%;
+  }
+
+  .header-title {
+    font-family: "Oleo Script", cursive;
+    letter-spacing: 1.3px;
     font-size: 15pt;
+    color: rgb(245, 239, 239);
+    padding-left: 5%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 0px;
+    background-color: rgb(14, 12, 12, 0.8);
+  }
+
+  .main-card {
+    position: fixed;
+    width: 40%;
+    background-color: rgb(12, 11, 11, 0.7);
+    padding: 22px;
+    margin-left: 27.6%;
+    margin-top: 6%;
+    z-index: 1;
+  }
+
+  .photo {
+    max-width: 60%;
+    max-height: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 2px 2px 6px 2px rgb(73, 72, 72);
+  }
+
+  .heart-button {
+    background-color: transparent;
+    border: none;
+  }
+
+  .dislike-button {
+    background-color: transparent;
+    border: none;
+  }
+
+  #love {
+    color: white;
+    font-size: 20px;
+    margin-left: 2px;
+  }
+
+  #user-liked {
+    color: red;
+    font-size: 20px;
+    margin-left: 2px;
+  }
+
+  #thumbs-down {
+    color: white;
+    font-size: 20px;
+    margin-left: 10px;
+  }
+
+  #user-hate {
+    color: red;
+    font-size: 20px;
+    margin-left: 10px;
+  }
+
+  .photo-title {
+    font-size: 13pt;
     font-family: "Strait", sans-serif;
     letter-spacing: 1.2px;
     color: rgb(225, 223, 235);
@@ -320,7 +421,7 @@
   .photo-date {
     font-size: 9pt;
     color: rgb(225, 223, 235);
-    margin-top: 5px;
+    margin-top: 10px;
   }
 
   .photo-description {
@@ -338,7 +439,7 @@
     margin-left: 0%;
   }
 
-  .main-title {
+  .header-title {
     font-family: "Oleo Script", cursive;
     letter-spacing: 1.3px;
     font-size: 32pt;
@@ -361,7 +462,8 @@
   }
 
   .photo {
-    width: 80%;
+    max-width: 80%;
+    max-height: 50%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -443,7 +545,7 @@
     margin-left: 0%;
   }
 
-  .main-title {
+  .header-title {
     font-family: "Oleo Script", cursive;
     letter-spacing: 1.3px;
     font-size: 22pt;
@@ -547,7 +649,7 @@
     bottom: 0;
   }
 
-  .main-title {
+  .header-title {
     font-family: "Oleo Script", cursive;
     letter-spacing: 1.3px;
     font-size: 18pt;
@@ -565,12 +667,13 @@
     background-color: rgb(12, 11, 11, 0.7);
     padding: 22px;
     margin-left: 29.2%;
-    margin-top: 6%;
+    margin-top: 8%;
     z-index: 1;
   }
 
   .photo {
-    width: 40%;
+    max-width: 60%;
+    max-height: 40%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -632,7 +735,7 @@
   }
 
   .photo-description {
-    font-size: 10.5pt;
+    font-size: 11.5pt;
     color: rgb(225, 223, 235);
   }
 }
@@ -654,7 +757,7 @@
     bottom: 0;
   }
 
-  .main-title {
+  .header-title {
     font-family: "Oleo Script", cursive;
     letter-spacing: 1.3px;
     font-size: 23.9pt;
@@ -677,7 +780,8 @@
   }
 
   .photo {
-    width: 48%;
+    max-width: 60%;
+    max-height: 40%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -767,7 +871,7 @@
     bottom: 0;
   }
 
-  .main-title {
+  .header-title {
     font-family: "Oleo Script", cursive;
     letter-spacing: 1.3px;
     font-size: 27.9pt;
@@ -790,7 +894,8 @@
   }
 
   .photo {
-    width: 68%;
+    max-width: 68%;
+    max-height: 55%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -880,14 +985,14 @@
     bottom: 0;
   }
 
-  .main-title {
+  .header-title {
     font-family: "Oleo Script", cursive;
     letter-spacing: 1.3px;
-    font-size: 28pt;
+    font-size: 24pt;
     color: rgb(245, 239, 239);
     padding-left: 5%;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 16px;
+    padding-bottom: 10px;
     margin-top: 0px;
     background-color: rgb(14, 12, 12, 0.38);
     width: 100%;
@@ -898,13 +1003,14 @@
     width: 37%;
     background-color: rgb(12, 11, 11, 0.7);
     padding: 22px;
-    margin-left: 32.8%;
-    margin-top: 8%;
+    margin-left: 30.4%;
+    margin-top: 9%;
     z-index: 1;
   }
 
   .photo {
-    width: 58%;
+    max-width: 60%;
+    max-height: 40%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -955,7 +1061,7 @@
   }
 
   .photo-title {
-    font-size: 18pt;
+    font-size: 16.5pt;
     font-family: "Strait", sans-serif;
     letter-spacing: 1.2px;
     color: rgb(225, 223, 235);
@@ -972,7 +1078,7 @@
   }
 
   .photo-description {
-    font-size: 13.3pt;
+    font-size: 13pt;
     color: rgb(225, 223, 235);
   }
 }
@@ -994,7 +1100,7 @@
     bottom: 0;
   }
 
-  .main-title {
+  .header-title {
     font-family: "Oleo Script", cursive;
     letter-spacing: 1.3px;
     font-size: 29pt;
@@ -1009,16 +1115,17 @@
 
   .main-card {
     position: fixed;
-    width: 34%;
+    width: 36%;
     background-color: rgb(12, 11, 11, 0.7);
     padding: 22px;
-    margin-left: 32.8%;
-    margin-top: 7.6%;
+    margin-left: 31.8%;
+    margin-top: 9.6%;
     z-index: 1;
   }
 
   .photo {
-    width: 64%;
+    max-width: 60%;
+    max-height: 40%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -1098,7 +1205,7 @@
     bottom: 0;
   }
 
-  .main-title {
+  .header-title {
     font-family: "Oleo Script", cursive;
     letter-spacing: 1.3px;
     font-size: 26pt;
@@ -1115,14 +1222,15 @@
     position: fixed;
     width: 36%;
     background-color: rgb(12, 11, 11, 0.7);
-    padding: 22px;
-    margin-left: 32.3%;
-    margin-top: 6.5%;
+    padding: 28px;
+    margin-left: 32.1%;
+    margin-top: 8.9%;
     z-index: 1;
   }
 
   .photo {
-    width: 50%;
+    max-width: 70%;
+    max-height: 40%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -1173,7 +1281,7 @@
   }
 
   .photo-title {
-    font-size: 18.5pt;
+    font-size: 19.5pt;
     font-family: "Strait", sans-serif;
     letter-spacing: 1.2px;
     color: rgb(225, 223, 235);
@@ -1190,7 +1298,7 @@
   }
 
   .photo-description {
-    font-size: 13pt;
+    font-size: 14pt;
     color: rgb(225, 223, 235);
   }
 }
@@ -1212,7 +1320,7 @@
     bottom: 0;
   }
 
-  .main-title {
+  .header-title {
     font-family: "Oleo Script", cursive;
     letter-spacing: 1.3px;
     font-size: 32pt;
@@ -1229,9 +1337,9 @@
     position: fixed;
     width: 37%;
     background-color: rgb(12, 11, 11, 0.7);
-    padding: 22px;
-    margin-left: 33%;
-    margin-top: 7.2%;
+    padding: 40px;
+    margin-left: 32%;
+    margin-top: 8%;
     z-index: 1;
   }
 
@@ -1304,7 +1412,7 @@
   }
 
   .photo-description {
-    font-size: 15pt;
+    font-size: 16pt;
     color: rgb(225, 223, 235);
   }
 }
@@ -1326,7 +1434,7 @@
     bottom: 0;
   }
 
-  .main-title {
+  .header-title {
     font-family: "Oleo Script", cursive;
     letter-spacing: 1.3px;
     font-size: 29pt;
