@@ -6,7 +6,7 @@ import './component.css'
 const Home = (props) => {
 
     return (  
-        <main>
+        <div>
             <video className = "video-backgound" autoPlay muted loop> 
                 <source src = {videoClip} type = "video/mp4"></source>
             </video>
@@ -25,7 +25,7 @@ const Home = (props) => {
                 </div>
                 <p className = "photo-description">{props.spacePhoto.explanation}</p>
             </section>
-        </main> 
+        </div> 
     )
 }
 
