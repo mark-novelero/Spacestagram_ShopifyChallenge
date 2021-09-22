@@ -22,7 +22,7 @@ const Home = (props) => {
                     onRequestClose={() => props.setZoom()}
                     ></Image>}
                 <h2 className = 'photo-title'>{props.spacePhoto.title}</h2>
-                <p className = "copyright">Copyright: {props.spacePhoto.copyright}</p>
+                {props.spacePhoto.copyright === undefined ? <p className = "copyright">NASA Astronomy Photo of the Day</p> : <p className = "copyright">Copyright: {props.spacePhoto.copyright}</p>}
                 <p className = "photo-date">{props.spacePhoto.date}</p>
                 <div classNAme = "icons">
                     <button className = "heart-button">
@@ -33,7 +33,7 @@ const Home = (props) => {
                     </button>
                 </div>
                 <p className = "photo-description">{props.spacePhoto.explanation}</p>
-            </section>
+            </section>  
         </div> 
     )
 }

@@ -490,7 +490,7 @@
   }
 
   .photo {
-    width: 50%;
+    width: 40%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -1403,14 +1403,14 @@
     width: 36%;
     background-color: rgb(12, 11, 11, 0.7);
     padding: 33px;
-    margin-left: 32.1%;
+    margin-left: 31.5%;
     margin-top: 8.9%;
     z-index: 1;
   }
 
   .photo {
     max-width: 50%;
-    max-height: 40%;
+    max-height: 60%;
     display: block;
     margin-left: auto;
     margin-right: auto;
