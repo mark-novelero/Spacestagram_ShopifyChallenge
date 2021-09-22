@@ -12,7 +12,7 @@ const Home = (props) => {
                 <source src = {videoClip} type = "video/mp4"></source>
             </video>
             <section className = 'main-card'>
-                {props.spacePhoto.media_type === 'video' ? <iframe className = 'photo' src = {props.spacePhoto.url} title = 'space video' allow = 'encrypted-media' allowFullScreen/> :
+                {props.spacePhoto.media_type === 'video' ? <iframe className = 'nasa-video' src = {props.spacePhoto.url} title = 'space video' allow = 'encrypted-media' allowFullScreen/> :
                 <Image 
                     className = 'photo' 
                     src = {props.spacePhoto.url} 

@@ -42,6 +42,14 @@
   box-shadow: 2px 2px 8px 2px rgb(73, 72, 72);
 }
 
+.nasa-video {
+  max-width: 85%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 2px 2px 8px 2px rgb(73, 72, 72);
+}
+
 .heart-button {
   background-color: transparent;
   border: none;
@@ -176,6 +184,15 @@
     box-shadow: 2px 2px 6px 2px rgb(73, 72, 72);
   }
 
+  .nasa-video {
+    width: 330px;
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 2px 2px 8px 2px rgb(73, 72, 72);
+  }
+
   .heart-button {
     background-color: transparent;
     border: none;
@@ -288,6 +305,15 @@
     box-shadow: 2px 2px 6px 2px rgb(73, 72, 72);
   }
 
+  .nasa-video {
+    width: 300px;
+    height: 170px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 2px 2px 8px 2px rgb(73, 72, 72);
+  }
+
   .heart-button {
     background-color: transparent;
     border: none;
@@ -393,6 +419,15 @@
     box-shadow: 2px 2px 6px 2px rgb(73, 72, 72);
   }
 
+  .nasa-video {
+    width: 300px;
+    height: 170px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 2px 2px 8px 2px rgb(73, 72, 72);
+  }
+
   .heart-button {
     background-color: transparent;
     border: none;
@@ -485,16 +520,26 @@
     background-color: rgb(12, 11, 11, 0.7);
     padding: 22px;
     margin-left: 27.6%;
-    margin-top: 6%;
+    margin-top: 5%;
     z-index: 1;
   }
 
   .photo {
-    width: 40%;
+    width: 190px;
+    height: 120px;
     display: block;
     margin-left: auto;
     margin-right: auto;
     box-shadow: 2px 2px 6px 2px rgb(73, 72, 72);
+  }
+
+  .nasa-video {
+    width: 200px;
+    height: 110px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 2px 2px 8px 2px rgb(73, 72, 72);
   }
 
   .heart-button {
@@ -509,25 +554,25 @@
 
   #love {
     color: white;
-    font-size: 20px;
+    font-size: 16px;
     margin-left: 2px;
   }
 
   #user-liked {
     color: red;
-    font-size: 20px;
+    font-size: 16px;
     margin-left: 2px;
   }
 
   #thumbs-down {
     color: white;
-    font-size: 20px;
+    font-size: 16px;
     margin-left: 10px;
   }
 
   #user-hate {
     color: red;
-    font-size: 20px;
+    font-size: 16px;
     margin-left: 10px;
   }
 
@@ -540,7 +585,7 @@
     margin-left: auto;
     margin-right: auto;
     align-items: center;
-    margin-top: 12pt;
+    margin-top: 10pt;
   }
 
   .copyright {
@@ -601,6 +646,15 @@
     margin-right: auto;
     box-shadow: 2px 2px 6px 2px rgb(73, 72, 72);
     margin-bottom: 50px;
+  }
+
+  .nasa-video {
+    width: 450px;
+    height: 280px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 2px 2px 8px 2px rgb(73, 72, 72);
   }
 
   .heart-button {
@@ -714,6 +768,15 @@
     margin-bottom: 25px;
   }
 
+  .nasa-video {
+    width: 300px;
+    height: 180px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 2px 2px 8px 2px rgb(73, 72, 72);
+  }
+
   .heart-button {
     background-color: transparent;
     border: none;
@@ -824,6 +887,15 @@
     margin-right: auto;
     box-shadow: 2px 2px 6px 2px rgb(73, 72, 72);
     margin-bottom: 12px;
+  }
+
+  .nasa-video {
+    width: 300px;
+    height: 180px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 2px 2px 8px 2px rgb(73, 72, 72);
   }
 
   .heart-button {
@@ -939,6 +1011,15 @@
     margin-right: auto;
     box-shadow: 2px 2px 6px 2px rgb(73, 72, 72);
     margin-bottom: 37px;
+  }
+
+  .nasa-video {
+    width: 300px;
+    height: 180px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 2px 2px 8px 2px rgb(73, 72, 72);
   }
 
   .heart-button {
@@ -1175,12 +1256,22 @@
 
   .photo {
     max-width: 50%;
-    max-height: 40%;
+    max-height: 50%;
     display: block;
     margin-left: auto;
     margin-right: auto;
     box-shadow: 2px 2px 6px 2px rgb(73, 72, 72);
     margin-bottom: 37px;
+  }
+
+  .nasa-video {
+    width: 300px;
+    height: 180px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 2px 2px 8px 2px rgb(73, 72, 72);
+    margin-bottom: 25px;
   }
 
   .heart-button {
@@ -1306,6 +1397,16 @@
     margin-bottom: 37px;
   }
 
+  .nasa-video {
+    width: 320px;
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 2px 2px 8px 2px rgb(73, 72, 72);
+    margin-bottom: 30px;
+  }
+
   #love {
     color: white;
     font-size: 24px;
@@ -1404,7 +1505,7 @@
     background-color: rgb(12, 11, 11, 0.7);
     padding: 33px;
     margin-left: 31.5%;
-    margin-top: 8.9%;
+    margin-top: 7.8%;
     z-index: 1;
   }
 
@@ -1416,6 +1517,16 @@
     margin-right: auto;
     box-shadow: 2px 2px 6px 2px rgb(73, 72, 72);
     margin-bottom: 37px;
+  }
+
+  .nasa-video {
+    width: 340px;
+    height: 220px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 2px 2px 8px 2px rgb(73, 72, 72);
+    margin-bottom: 30px;
   }
 
   .heart-button {
@@ -1525,7 +1636,7 @@
     background-color: rgb(12, 11, 11, 0.7);
     padding: 40px;
     margin-left: 32%;
-    margin-top: 8%;
+    margin-top: 7.7%;
     z-index: 1;
   }
 
@@ -1536,6 +1647,16 @@
     margin-right: auto;
     box-shadow: 2px 2px 6px 2px rgb(73, 72, 72);
     margin-bottom: 37px;
+  }
+
+  .nasa-video {
+    width: 410px;
+    height: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 2px 2px 8px 2px rgb(73, 72, 72);
+    margin-bottom: 35px;
   }
 
   .heart-button {
@@ -1657,6 +1778,16 @@
     margin-right: auto;
     box-shadow: 2px 2px 6px 2px rgb(73, 72, 72);
     margin-bottom: 37px;
+  }
+
+  .nasa-video {
+    width: 460px;
+    height: 290px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 2px 2px 8px 2px rgb(73, 72, 72);
+    margin-bottom: 35px;
   }
 
   #love {
