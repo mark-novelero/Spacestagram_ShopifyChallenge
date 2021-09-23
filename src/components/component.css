@@ -265,6 +265,256 @@
   }
 }
 
+@media screen and (min-width: 719px) and (min-height: 539px) {
+  .page-header {
+    width: 100%;
+    height: 0.39in;
+    background-color: transparent;
+    position: fixed;
+    z-index: 2;
+    margin-left: 0%;
+    background-color: rgb(12, 11, 11, 0.7);
+  }
+
+  .video-backgound {
+    min-height: 100vh;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+  }
+
+  .header-title {
+    font-family: "Oleo Script", cursive;
+    letter-spacing: 1.1px;
+    font-size: 12pt;
+    color: whitesmoke;
+    padding-left: 5%;
+  }
+
+  .main-card {
+    position: fixed;
+    width: 60%;
+    background-color: rgb(12, 11, 11, 0.7);
+    padding: 25px;
+    margin-left: 16.5%;
+    margin-top: 7.5%;
+    z-index: 1;
+  }
+
+  .photo {
+    max-width: 99%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 2px 2px 6px 2px rgb(73, 72, 72);
+  }
+
+  .nasa-video {
+    width: 200px;
+    height: 120px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 2px 2px 8px 2px rgb(73, 72, 72);
+  }
+
+  .heart-button {
+    background-color: transparent;
+    border: none;
+  }
+
+  .dislike-button {
+    background-color: transparent;
+    border: none;
+  }
+
+  #love {
+    color: white;
+    font-size: 15px;
+    margin-left: 2px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+
+  #user-liked {
+    color: red;
+    font-size: 15px;
+    margin-left: 2px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+
+  #thumbs-down {
+    color: white;
+    font-size: 15px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+
+  #user-hate {
+    color: red;
+    font-size: 15px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+
+  .photo-title {
+    font-size: 11pt;
+    font-family: "Strait", sans-serif;
+    letter-spacing: 1.2px;
+    color: rgb(225, 223, 235);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    margin-top: 18px;
+  }
+
+  .copyright {
+    font-size: 8pt;
+    color: rgb(178, 178, 182);
+    margin-top: 2px;
+    margin-left: 1px;
+  }
+
+  .photo-date {
+    font-size: 9pt;
+    color: rgb(225, 223, 235);
+  }
+
+  .photo-description {
+    font-size: 9.5pt;
+    color: rgb(225, 223, 235);
+  }
+}
+
+@media screen and (min-width: 719px) and (min-height: 1000px) {
+  .page-header {
+    width: 100%;
+    height: 0.89in;
+    background-color: transparent;
+    position: fixed;
+    z-index: 2;
+    margin-left: 0%;
+    background-color: rgb(12, 11, 11, 0.7);
+  }
+
+  .video-backgound {
+    min-height: 100vh;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+  }
+
+  .header-title {
+    font-family: "Oleo Script", cursive;
+    letter-spacing: 1.1px;
+    font-size: 28pt;
+    color: whitesmoke;
+    padding-left: 5%;
+  }
+
+  .main-card {
+    position: fixed;
+    width: 70%;
+    background-color: rgb(12, 11, 11, 0.7);
+    padding: 25px;
+    margin-left: 10.7%;
+    margin-top: 18.5%;
+    z-index: 1;
+  }
+
+  .photo {
+    max-width: 99%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 2px 2px 6px 2px rgb(73, 72, 72);
+  }
+
+  .nasa-video {
+    width: 400px;
+    height: 220px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 2px 2px 8px 2px rgb(73, 72, 72);
+  }
+
+  .heart-button {
+    background-color: transparent;
+    border: none;
+  }
+
+  .dislike-button {
+    background-color: transparent;
+    border: none;
+  }
+
+  #love {
+    color: white;
+    font-size: 30px;
+    margin-left: 2px;
+    margin-bottom: 19px;
+    margin-top: 19px;
+  }
+
+  #user-liked {
+    color: red;
+    font-size: 30px;
+    margin-left: 2px;
+    margin-bottom: 19px;
+    margin-top: 19px;
+  }
+
+  #thumbs-down {
+    color: white;
+    font-size: 30px;
+    margin-left: 10px;
+    margin-bottom: 19px;
+    margin-top: 19px;
+  }
+
+  #user-hate {
+    color: red;
+    font-size: 30px;
+    margin-left: 10px;
+    margin-bottom: 19px;
+    margin-top: 19px;
+  }
+
+  .photo-title {
+    font-size: 20pt;
+    font-family: "Strait", sans-serif;
+    letter-spacing: 1.2px;
+    color: rgb(225, 223, 235);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    margin-top: 38px;
+  }
+
+  .copyright {
+    font-size: 10pt;
+    color: rgb(178, 178, 182);
+    margin-top: 12px;
+    margin-left: 1px;
+  }
+
+  .photo-date {
+    font-size: 13pt;
+    color: rgb(225, 223, 235);
+  }
+
+  .photo-description {
+    font-size: 13pt;
+    color: rgb(225, 223, 235);
+  }
+}
+
 @media screen and (min-width: 850px) {
   .page-header {
     width: 100%;
@@ -402,11 +652,11 @@
 
   .main-card {
     position: fixed;
-    width: 42%;
+    width: 52%;
     background-color: rgb(12, 11, 11, 0.7);
     padding: 25px;
-    margin-left: 26.6%;
-    margin-top: 11.25%;
+    margin-left: 21.7%;
+    margin-top: 9.4%;
     z-index: 1;
   }
 
@@ -421,7 +671,7 @@
 
   .nasa-video {
     width: 300px;
-    height: 170px;
+    height: 180px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -471,7 +721,7 @@
     margin-left: auto;
     margin-right: auto;
     align-items: center;
-    margin-top: 15pt;
+    margin-top: 20pt;
   }
 
   .copyright {
@@ -516,11 +766,11 @@
 
   .main-card {
     position: fixed;
-    width: 40%;
+    width: 48%;
     background-color: rgb(12, 11, 11, 0.7);
     padding: 22px;
-    margin-left: 27.6%;
-    margin-top: 5%;
+    margin-left: 21.6%;
+    margin-top: 8%;
     z-index: 1;
   }
 
@@ -534,8 +784,8 @@
   }
 
   .nasa-video {
-    width: 200px;
-    height: 110px;
+    width: 240px;
+    height: 140px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -554,25 +804,25 @@
 
   #love {
     color: white;
-    font-size: 16px;
+    font-size: 19px;
     margin-left: 2px;
   }
 
   #user-liked {
     color: red;
-    font-size: 16px;
+    font-size: 19px;
     margin-left: 2px;
   }
 
   #thumbs-down {
     color: white;
-    font-size: 16px;
+    font-size: 19px;
     margin-left: 10px;
   }
 
   #user-hate {
     color: red;
-    font-size: 16px;
+    font-size: 19px;
     margin-left: 10px;
   }
 
@@ -585,24 +835,24 @@
     margin-left: auto;
     margin-right: auto;
     align-items: center;
-    margin-top: 10pt;
+    margin-top: 19pt;
   }
 
   .copyright {
     font-size: 7pt;
     color: rgb(178, 178, 182);
-    margin-top: 5px;
+    margin-top: 8px;
     margin-left: 1px;
   }
 
   .photo-date {
     font-size: 8pt;
     color: rgb(225, 223, 235);
-    margin-top: 10px;
+    margin-top: 13px;
   }
 
   .photo-description {
-    font-size: 9pt;
+    font-size: 10pt;
     color: rgb(225, 223, 235);
   }
 }
