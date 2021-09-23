@@ -12,15 +12,17 @@ const Home = (props) => {
                 <source src = {videoClip} type = "video/mp4"></source>
             </video>
             <section className = 'main-card'>
-                {props.spacePhoto.media_type === 'video' ? <iframe className = 'nasa-video' src = {props.spacePhoto.url} title = 'space video' allow = 'encrypted-media' allowFullScreen/> :
-                <Image 
-                    className = 'photo' 
-                    src = {props.spacePhoto.url} 
-                    alt = {props.spacePhoto.title}
-                    zoomed = {props.zoomed}
-                    onClick = {() => props.setZoom()}
-                    onRequestClose={() => props.setZoom()}
-                    ></Image>}
+                <div className = "image-div">
+                    {props.spacePhoto.media_type === 'video' ? <iframe className = 'nasa-video' src = {props.spacePhoto.url} title = 'space video' allow = 'encrypted-media' allowFullScreen/> :
+                    <Image 
+                        className = 'photo' 
+                        src = {props.spacePhoto.url} 
+                        alt = {props.spacePhoto.title}
+                        zoomed = {props.zoomed}
+                        onClick = {() => props.setZoom()}
+                        onRequestClose={() => props.setZoom()}>
+                    </Image>}
+                 </div>   
                 <h2 className = 'photo-title'>{props.spacePhoto.title}</h2>
                 {props.spacePhoto.copyright === undefined ? <p className = "copyright">NASA Astronomy Photo of the Day</p> : <p className = "copyright">Copyright: {props.spacePhoto.copyright}</p>}
                 <p className = "photo-date">{props.spacePhoto.date}</p>
