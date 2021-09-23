@@ -798,7 +798,7 @@
     width: 48%;
     background-color: rgb(12, 11, 11, 0.7);
     padding: 22px;
-    margin-left: 22.6%;
+    margin-left: 24.6%;
     margin-top: 7%;
     z-index: 1;
   }
@@ -809,8 +809,14 @@
     height: 180px;
   }
 
+  .image-div {
+    display: flex;
+    justify-content: center;
+    height: 130px;
+  }
+
   .photo {
-    max-height: 170px;
+    max-height: 130px;
     width: auto;
     height: auto;
     object-fit: cover;
