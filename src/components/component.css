@@ -26,20 +26,31 @@
 
 .main-card {
   position: fixed;
-  width: 80%;
+  width: 85%;
   background-color: rgb(12, 11, 11, 0.7);
   padding: 15px;
-  margin-left: 5.2%;
+  margin-left: 3.44%;
   margin-top: 25%;
   z-index: 1;
 }
 
+.image-div {
+  display: flex;
+  justify-content: center;
+  height: 200px;
+}
+
 .photo {
-  max-width: 99%;
+  max-height: 210px;
+  max-width: 200px;
+  width: auto;
+  height: auto;
+  object-fit: cover;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  box-shadow: 2px 2px 8px 2px rgb(73, 72, 72);
+  box-shadow: 2px 2px 6px 2px rgb(73, 72, 72);
+  margin-bottom: 37px;
 }
 
 .nasa-video {
@@ -566,13 +577,22 @@
     z-index: 1;
   }
 
+  .image-div {
+    display: flex;
+    justify-content: center;
+    height: 170px;
+  }
+
   .photo {
-    width: 50%;
-    max-height: 40%;
+    max-height: 160px;
+    width: auto;
+    height: auto;
+    object-fit: cover;
     display: block;
     margin-left: auto;
     margin-right: auto;
     box-shadow: 2px 2px 6px 2px rgb(73, 72, 72);
+    margin-bottom: 37px;
   }
 
   .nasa-video {
@@ -644,7 +664,7 @@
   }
 
   .photo-description {
-    font-size: 11pt;
+    font-size: 9.5pt;
     color: rgb(225, 223, 235);
   }
 }
@@ -795,11 +815,11 @@
 
   .main-card {
     position: fixed;
-    width: 48%;
+    width: 56%;
     background-color: rgb(12, 11, 11, 0.7);
     padding: 22px;
-    margin-left: 24.6%;
-    margin-top: 7%;
+    margin-left: 22.6%;
+    margin-top: 6.7%;
     z-index: 1;
   }
 
@@ -812,11 +832,11 @@
   .image-div {
     display: flex;
     justify-content: center;
-    height: 130px;
+    height: 170px;
   }
 
   .photo {
-    max-height: 130px;
+    max-height: 170px;
     width: auto;
     height: auto;
     object-fit: cover;
@@ -848,25 +868,25 @@
 
   #love {
     color: white;
-    font-size: 19px;
+    font-size: 18px;
     margin-left: 2px;
   }
 
   #user-liked {
     color: red;
-    font-size: 19px;
+    font-size: 18px;
     margin-left: 2px;
   }
 
   #thumbs-down {
     color: white;
-    font-size: 19px;
+    font-size: 18px;
     margin-left: 10px;
   }
 
   #user-hate {
     color: red;
-    font-size: 19px;
+    font-size: 18px;
     margin-left: 10px;
   }
 
@@ -896,7 +916,7 @@
   }
 
   .photo-description {
-    font-size: 10pt;
+    font-size: 8.5pt;
     color: rgb(225, 223, 235);
   }
 }
@@ -1042,29 +1062,29 @@
   .header-title {
     font-family: "Oleo Script", cursive;
     letter-spacing: 1.3px;
-    font-size: 22pt;
+    font-size: 18pt;
     color: rgb(245, 239, 239);
     padding-left: 5%;
-    padding-top: 12px;
-    padding-bottom: 12px;
+    padding-top: 7px;
+    padding-bottom: 7px;
     margin-top: 0px;
     background-color: rgb(14, 12, 12, 0.8);
   }
 
   .main-card {
     position: fixed;
-    width: 40%;
+    width: 42%;
     background-color: rgb(12, 11, 11, 0.7);
     padding: 22px;
     margin-left: 27.8%;
-    margin-top: 8.9%;
+    margin-top: 7.5%;
     z-index: 1;
   }
 
   .image-div {
     display: flex;
     justify-content: center;
-    height: 200px;
+    height: 190px;
   }
 
   .photo {
@@ -1305,7 +1325,7 @@
   .header-title {
     font-family: "Oleo Script", cursive;
     letter-spacing: 1.3px;
-    font-size: 23.9pt;
+    font-size: 18pt;
     color: rgb(245, 239, 239);
     padding-left: 5%;
     padding-top: 10px;
@@ -1316,22 +1336,22 @@
 
   .main-card {
     position: fixed;
-    width: 44%;
+    width: 46%;
     background-color: rgb(12, 11, 11, 0.7);
     padding: 22px;
-    margin-left: 27.9%;
-    margin-top: 7.2%;
+    margin-left: 27.2%;
+    margin-top: 6.7%;
     z-index: 1;
   }
 
   .image-div {
     display: flex;
     justify-content: center;
-    height: 230px;
+    height: 215px;
   }
 
   .photo {
-    max-height: 215px;
+    max-height: 210px;
     width: auto;
     height: auto;
     object-fit: cover;
@@ -1418,7 +1438,7 @@
   }
 
   .photo-description {
-    font-size: 12pt;
+    font-size: 11pt;
     color: rgb(225, 223, 235);
   }
 }
@@ -1571,10 +1591,10 @@
   .header-title {
     font-family: "Oleo Script", cursive;
     letter-spacing: 1.3px;
-    font-size: 24pt;
+    font-size: 20pt;
     color: rgb(245, 239, 239);
     padding-left: 5%;
-    padding-top: 16px;
+    padding-top: 10px;
     padding-bottom: 10px;
     margin-top: 0px;
     background-color: rgb(14, 12, 12, 0.38);
@@ -1594,11 +1614,11 @@
   .image-div {
     display: flex;
     justify-content: center;
-    height: 235px;
+    height: 245px;
   }
 
   .photo {
-    max-height: 200px;
+    max-height: 225px;
     object-fit: cover;
     width: auto;
     height: auto;
@@ -1845,8 +1865,8 @@
     font-size: 26pt;
     color: rgb(245, 239, 239);
     padding-left: 5%;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 12px;
+    padding-bottom: 12px;
     margin-top: 0px;
     background-color: rgb(14, 12, 12, 0.38);
     width: 100%;
@@ -1854,22 +1874,22 @@
 
   .main-card {
     position: fixed;
-    width: 47%;
+    width: 42%;
     background-color: rgb(12, 11, 11, 0.7);
     padding: 33px;
-    margin-left: 26%;
-    margin-top: 7.8%;
+    margin-left: 28%;
+    margin-top: 7.4%;
     z-index: 1;
   }
 
   .image-div {
     display: flex;
     justify-content: center;
-    height: 320px;
+    height: 325px;
   }
 
   .photo {
-    max-height: 260px;
+    max-height: 290px;
     width: auto;
     height: auto;
     object-fit: cover;
@@ -1877,7 +1897,6 @@
     margin-left: auto;
     margin-right: auto;
     box-shadow: 2px 2px 6px 2px rgb(73, 72, 72);
-    margin-bottom: 37px;
   }
 
   .nasa-video {
@@ -1981,7 +2000,7 @@
   .header-title {
     font-family: "Oleo Script", cursive;
     letter-spacing: 1.3px;
-    font-size: 32pt;
+    font-size: 28pt;
     color: rgb(245, 239, 239);
     padding-left: 5%;
     padding-top: 15px;
@@ -1997,18 +2016,18 @@
     background-color: rgb(12, 11, 11, 0.7);
     padding: 40px;
     margin-left: 28.8%;
-    margin-top: 7.7%;
+    margin-top: 7%;
     z-index: 1;
   }
 
   .image-div {
     display: flex;
     justify-content: center;
-    height: 290px;
+    height: 325px;
   }
 
   .photo {
-    max-height: 250px;
+    max-height: 290px;
     width: auto;
     height: auto;
     object-fit: cover;
@@ -2041,7 +2060,7 @@
 
   #love {
     color: white;
-    font-size: 30px;
+    font-size: 28px;
     margin-left: 2px;
     margin-bottom: 18px;
     margin-top: 15px;
@@ -2049,7 +2068,7 @@
 
   #user-liked {
     color: red;
-    font-size: 30px;
+    font-size: 28px;
     margin-left: 2px;
     margin-bottom: 18px;
     margin-top: 15px;
@@ -2057,7 +2076,7 @@
 
   #thumbs-down {
     color: white;
-    font-size: 30px;
+    font-size: 28px;
     margin-left: 14px;
     margin-bottom: 18px;
     margin-top: 15px;
@@ -2065,14 +2084,14 @@
 
   #user-hate {
     color: red;
-    font-size: 30px;
+    font-size: 28px;
     margin-left: 14px;
     margin-bottom: 18px;
     margin-top: 15px;
   }
 
   .photo-title {
-    font-size: 22.5pt;
+    font-size: 21pt;
     font-family: "Strait", sans-serif;
     letter-spacing: 1.2px;
     color: rgb(225, 223, 235);
@@ -2096,7 +2115,7 @@
   }
 
   .photo-description {
-    font-size: 16pt;
+    font-size: 14.5pt;
     color: rgb(225, 223, 235);
   }
 }
@@ -2144,11 +2163,11 @@
   .image-div {
     display: flex;
     justify-content: center;
-    height: 380px;
+    height: 350px;
   }
 
   .photo {
-    max-height: 320px;
+    max-height: 310px;
     width: auto;
     height: auto;
     object-fit: cover;

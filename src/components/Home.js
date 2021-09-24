@@ -22,7 +22,7 @@ const Home = (props) => {
                         onClick = {() => props.setZoom()}
                         onRequestClose={() => props.setZoom()}>
                     </Image>}
-                 </div>   
+                </div>   
                 <h2 className = 'photo-title'>{props.spacePhoto.title}</h2>
                 {props.spacePhoto.copyright === undefined ? <p className = "copyright">NASA Astronomy Photo of the Day</p> : <p className = "copyright">Copyright: {props.spacePhoto.copyright}</p>}
                 <p className = "photo-date">{props.spacePhoto.date}</p>
