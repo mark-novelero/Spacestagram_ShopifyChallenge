@@ -1206,18 +1206,18 @@
     background-color: rgb(12, 11, 11, 0.7);
     padding: 22px;
     margin-left: 29.9%;
-    margin-top: 7%;
+    margin-top: 6.7%;
     z-index: 1;
   }
 
   .image-div {
     display: flex;
     justify-content: center;
-    height: 185px;
+    height: 210px;
   }
 
   .photo {
-    max-height: 170px;
+    max-height: 205px;
     width: auto;
     height: auto;
     object-fit: cover;
@@ -1607,18 +1607,18 @@
     background-color: rgb(12, 11, 11, 0.7);
     padding: 22px;
     margin-left: 29.9%;
-    margin-top: 8%;
+    margin-top: 7.3%;
     z-index: 1;
   }
 
   .image-div {
     display: flex;
     justify-content: center;
-    height: 245px;
+    height: 255px;
   }
 
   .photo {
-    max-height: 225px;
+    max-height: 235px;
     object-fit: cover;
     width: auto;
     height: auto;
