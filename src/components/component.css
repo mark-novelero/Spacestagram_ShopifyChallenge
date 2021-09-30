@@ -848,8 +848,10 @@
   }
 
   .nasa-video {
-    width: 240px;
-    height: 140px;
+    max-height: 170px;
+    max-width: 285px;
+    width: 285px;
+    height: auto;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -1206,20 +1208,20 @@
     background-color: rgb(12, 11, 11, 0.7);
     padding: 22px;
     margin-left: 29.9%;
-    margin-top: 6.7%;
+    margin-top: 6%;
     z-index: 1;
   }
 
   .image-div {
     display: flex;
     justify-content: center;
-    height: 210px;
+    height: 200px;
   }
 
   .photo {
-    max-height: 205px;
+    max-height: 190px;
     width: auto;
-    height: auto;
+    height: 180px;
     object-fit: cover;
     display: block;
     margin-left: auto;
@@ -1300,7 +1302,7 @@
   }
 
   .photo-description {
-    font-size: 11pt;
+    font-size: 10.5pt;
     color: rgb(225, 223, 235);
   }
 }
@@ -1607,18 +1609,18 @@
     background-color: rgb(12, 11, 11, 0.7);
     padding: 22px;
     margin-left: 29.9%;
-    margin-top: 7.3%;
+    margin-top: 6.9%;
     z-index: 1;
   }
 
   .image-div {
     display: flex;
     justify-content: center;
-    height: 255px;
+    height: 225px;
   }
 
   .photo {
-    max-height: 235px;
+    max-height: 215px;
     object-fit: cover;
     width: auto;
     height: auto;
@@ -1886,11 +1888,11 @@
   .image-div {
     display: flex;
     justify-content: center;
-    height: 270px;
+    height: 250px;
   }
 
   .photo {
-    max-height: 240px;
+    max-height: 220px;
     width: 420px;
     height: auto;
     object-fit: cover;
@@ -2025,11 +2027,11 @@
   .image-div {
     display: flex;
     justify-content: center;
-    height: 310px;
+    height: 290px;
   }
 
   .photo {
-    max-height: 280px;
+    max-height: 260px;
     width: auto;
     height: auto;
     object-fit: cover;
@@ -2116,7 +2118,7 @@
   }
 
   .photo-description {
-    font-size: 15pt;
+    font-size: 14pt;
     color: rgb(225, 223, 235);
   }
 }
@@ -2168,7 +2170,7 @@
   }
 
   .photo {
-    max-height: 290px;
+    max-height: 280px;
     width: auto;
     height: auto;
     object-fit: cover;
@@ -2309,7 +2311,7 @@
   }
 
   .photo {
-    max-height: 310px;
+    max-height: 300px;
     width: auto;
     height: auto;
     object-fit: cover;
