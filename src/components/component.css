@@ -2027,11 +2027,11 @@
   .image-div {
     display: flex;
     justify-content: center;
-    height: 290px;
+    height: 280px;
   }
 
   .photo {
-    max-height: 260px;
+    max-height: 250px;
     width: auto;
     height: auto;
     object-fit: cover;
@@ -2159,18 +2159,18 @@
     background-color: rgb(12, 11, 11, 0.7);
     padding: 40px;
     margin-left: 28.8%;
-    margin-top: 7%;
+    margin-top: 6.7%;
     z-index: 1;
   }
 
   .image-div {
     display: flex;
     justify-content: center;
-    height: 325px;
+    height: 300px;
   }
 
   .photo {
-    max-height: 280px;
+    max-height: 270px;
     width: auto;
     height: auto;
     object-fit: cover;
@@ -2300,18 +2300,18 @@
     background-color: rgb(12, 11, 11, 0.7);
     padding: 38px;
     margin-left: 29.4%;
-    margin-top: 7.2%;
+    margin-top: 7%;
     z-index: 1;
   }
 
   .image-div {
     display: flex;
     justify-content: center;
-    height: 350px;
+    height: 330px;
   }
 
   .photo {
-    max-height: 300px;
+    max-height: 290px;
     width: auto;
     height: auto;
     object-fit: cover;
@@ -2399,7 +2399,7 @@
   }
 
   .photo-description {
-    font-size: 17pt;
+    font-size: 16pt;
     color: rgb(225, 223, 235);
   }
 }
